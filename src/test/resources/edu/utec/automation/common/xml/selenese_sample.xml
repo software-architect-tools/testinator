@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCase>
+	<selenese>
+		<command>open</command>
+		<target><![CDATA[https://www.utec.edu.pe/en]]></target>
+		<value><![CDATA[]]></value>
+	</selenese>
+	<selenese>
+		<command>click</command>
+		<target><![CDATA[xpath=/html/body/div[2]/div/div[2]/div[1]/div[1]/div/div[2]/div/ul/li[2]/a]]></target>
+		<value><![CDATA[]]></value>
+	</selenese>
+	<selenese>
+		<command>verifyText</command>
+		<target><![CDATA[xpath=(.//*[normalize-space(text()) and normalize-space(.)='Main Campus'])[1]/following::span[1]]]></target>
+		<value><![CDATA[Medrano Silva Street 165, Barranco, Lima]]></value>
+	</selenese>
+</TestCase>
